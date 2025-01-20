@@ -10,7 +10,7 @@ import seaborn as sns
 import torch
 from Bio.PDB import PDBParser
 from Bio.PDB.Polypeptide import is_aa
-from Bio.PDB.Polypeptide import protein_letters_3to1 as three_to_one
+from Bio.Data.IUPACData import protein_letters_3to1 as three_to_one
 from kinodata.data.dataset import process_raw_data
 from posecheck.utils.constants import REDUCE_PATH
 from rdkit import Chem

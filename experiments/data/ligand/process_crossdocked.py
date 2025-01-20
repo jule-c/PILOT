@@ -11,7 +11,8 @@ import seaborn as sns
 import torch
 from Bio.PDB import PDBParser
 from Bio.PDB.Polypeptide import is_aa
-from Bio.PDB.Polypeptide import protein_letters_3to1 as three_to_one
+from Bio.Data.IUPACData import protein_letters_3to1 as three_to_one
+
 from rdkit import Chem
 from scipy.ndimage import gaussian_filter
 from tqdm import tqdm
